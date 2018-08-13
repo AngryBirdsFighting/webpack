@@ -1,0 +1,13 @@
+.layer{
+    width: 400px;
+    height: 400px;
+    background: darkgoldenrod;
+    & div{
+        text-decoration: none;
+        text-size-adjust: none;
+        width: 200px;
+        height: 200px;
+        background: red;
+        color: white;
+    }
+}

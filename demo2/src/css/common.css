@@ -1,0 +1,22 @@
+@import "./flex.css";
+
+html, body{
+    margin:0;
+    padding:0;
+    background: red;
+}
+ul , li {
+    list-style: none;
+}
+.flex-div{
+    display: flex;
+    box-sizing:border-box;
+    width : calc(50% - 2em);
+    transition : transform 1s;
+    border-radius:25px;
+    box-shadow: 10px 10px 5px #888888;
+    text-shadow: 5px 5px 5px #FF0000;
+    word-wrap:break-word;   
+    text-decoration: none;
+    text-size-adjust: none;
+}
