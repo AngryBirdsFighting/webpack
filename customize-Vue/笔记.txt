@@ -1,0 +1,9 @@
+babel-preset-env  babel preset将基于你的实际浏览器及运行环境，自动的确定babel插件及polyfills，转译ES2015及此版本以上的语言
+* babel: ES6转义的核心包
+* babel-cli: 用于在终端使用babel,用命令行转码
+* babel-core: 如果某些代码需要调用Babel的API进行转码，就要使用`babel-core`模块
+* babel-loader: 执行转义的核心包
+* babel-plugin-react-transform: 代替react-hot-loader的插件
+* babel-preset-es2015: 现在被babel-preset-env取代了，被babel未来不会过时的（future-proof）”解决方案
+* babel-preset-react: 转义react的jsx语法,
+* babel-preset-stage-0: ”stage-0"是对ES7一些提案的支持，Babel通过插件的方式引入，包含stage-1, stage-2以及stage-3的所有功能

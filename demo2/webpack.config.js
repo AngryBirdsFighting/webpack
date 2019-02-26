@@ -4,7 +4,7 @@ module.exports = {
     entry: "./src/app.js",
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "js-[name]-[hash].js"
+        filename: "js-[id]-[hash].js"
     },
     module: {
         rules: [{
@@ -14,7 +14,7 @@ module.exports = {
                 include: path.resolve(__dirname, "src") // 指定babel解析文件
             },
             {
-                test: /\.css$/,
+                test: /\.css$/, 
                 use: ["style-loader", "css-loader?importLoaders=1", "postcss-loader"]
             },
             {
