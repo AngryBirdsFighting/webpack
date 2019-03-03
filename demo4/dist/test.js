@@ -1,3 +1,4 @@
+exports["ab"] =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -81,30 +82,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/test.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/a.js":
-/*!******************!*\
-  !*** ./src/a.js ***!
-  \******************/
+/***/ "./src/test.js":
+/*!*********************!*\
+  !*** ./src/test.js ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"a.js页面\"\n\n//# sourceURL=webpack:///./src/a.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("let a = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\nconsole.log(a)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("module.exports = \"wangchao\"\n\n//# sourceURL=webpack://ab/./src/test.js?");
 
 /***/ })
 
