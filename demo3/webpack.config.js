@@ -128,7 +128,7 @@ module.exports = {
        poll:1000, // 多少秒监控一次
        aggreatemrnt:500, //防抖 500毫秒内我修改的东西进行打包
        ignored:/node_modules/ // 不需要监控的文件-
-    }
+    },
     devServer: { // 开发服务器配置
         contentBase: "./build", // 
         port: 3000, // 端口号
